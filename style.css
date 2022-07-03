@@ -1,0 +1,57 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    font-family: var(--b-font);
+}
+
+ :root {
+    --b-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --f-size: 19px
+}
+
+.nav-text {
+    color: rgba(255, 255, 255, 0.722) !important;
+}
+
+.nav-text:hover {
+    color: rgba(255, 255, 255, 0.903) !important;
+}
+
+.tog-icon {
+    color: #fff !important;
+}
+
+.webtext {
+    font-size: var(--f-size);
+    font-weight: 300;
+}
+
+.btn {
+    font-size: var(--f-size)
+}
+
+
+/* section2 starts */
+
+.virtual {
+    border: 10px solid transparent;
+    background-clip: padding-box;
+}
+
+.sec3-icon {
+    font-size: 40px;
+}
+
+.chevicon {
+    color: rgba(26, 25, 25, 0.575);
+}
+
+.sec4-p {
+    font-size: var(--f-size);
+    font-weight: 300;
+}
+
+@media( min-width:250px) and (max-width:575px) {
+    .headtext {
+        padding: 50px 30px;
+    }
+}
